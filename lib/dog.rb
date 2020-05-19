@@ -25,7 +25,8 @@ class Dog
     end
   end
 
-  def save
+  def initialze(save)
+    @save = save
     @@all << self
   end
 
